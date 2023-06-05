@@ -28,6 +28,33 @@
     width: 250px;
     height: 250px;
   }
+  .Github-profile{
+    position: absolute;
+    top: 49%;
+    left: 22%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 35px;
+    height: 35px;
+  }
+  .LinkedIn-profile{
+    position: absolute;
+    top: 49%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 37px;
+    height: 37px;
+  }
+  .Insta-profile{
+    position: absolute;
+    top: 49%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    margin-top: 1rem;
+    width: 39px;
+    height: 39px;
+  }
   
   .WordCarousel {
     position: absolute;
@@ -62,14 +89,33 @@
   
     .WordCarousel {
       font-size: 2rem;
-      margin-left: 1rem;
+      top:37%;
+      left: 25%;
     }
   
     .profile-image {
       width: 150px;
       height: 150px;
-      margin-top: -10rem;
-      margin-left: 0;
+      top:26%;
+      left: 76%;
+    }
+    .Github-profile{
+      width: 25px;
+      height: 25px;
+      top: 46%;
+      left: 14%;
+    }
+    .LinkedIn-profile{
+      width: 28px;
+      height: 28px;
+      top: 46%;
+      left: 28%;
+    }
+    .Insta-profile{
+      width: 28px;
+      height: 28px;
+      top: 46%;
+      left: 42%;
     }
   }
   
