@@ -1,20 +1,21 @@
-import React from 'react'
-import '../HeroSection.css'
-import '../../App.css'
+import React from 'react';
+import '../../App.css';
+import '../Skills.css';
 import HeroSection from '../HeroSection';
+import Skills from '../Skills';
 import { useEffect } from 'react';
 
-function Home(){
+function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
-    useEffect(() => {
-        window.scrollTo(0, 0);
-      }, []);
-
-    return(
-        <>
-        <HeroSection />
-        </>
-    );
+  return (
+    <>
+      <HeroSection />
+      <Skills />
+    </>
+  );
 }
 
-export default Home
+export default Home;
