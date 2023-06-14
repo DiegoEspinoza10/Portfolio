@@ -16,7 +16,7 @@ const WordCarousel = () => {
           setCurrentIndex((prevIndex) => (prevIndex + 1) % words.length);
           setIsVisible(true);
         }, 500);
-      }, 4000);
+      }, 3500);
   
       return () => clearInterval(interval);
     }, []);
