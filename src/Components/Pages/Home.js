@@ -1,8 +1,10 @@
 import React from 'react';
 import '../../App.css';
 import '../Skills.css';
+import '../AboutMe.css';
 import HeroSection from '../HeroSection';
 import Skills from '../Skills';
+import AboutMe from '../AboutMe'; 
 import { useEffect } from 'react';
 
 function Home() {
@@ -13,6 +15,7 @@ function Home() {
   return (
     <>
       <HeroSection />
+      <AboutMe />
       <Skills />
     </>
   );
