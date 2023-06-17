@@ -1,5 +1,5 @@
 .skills-container {
-    background: linear-gradient(0deg, #b46881 0%, #6c4e78 100%);
+    background: #140421;
     width: 100%;
     flex-direction: column;
     box-shadow: 0 0 0 1000px rgba(0, 0, 0, 0.2);
@@ -34,7 +34,7 @@
   }
   
   .card-img-top {
-    width: 100%;
+    width: 90%;
     height: 260px;
     object-fit: cover; 
     border-top-left-radius: 10px;
