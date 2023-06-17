@@ -11,7 +11,7 @@ function Skills() {
     },
     {
         title: 'Java Development', 
-        image: 'https://logos-world.net/wp-content/uploads/2022/07/Java-Logo.png',
+        image: 'https://www.wizcase.com/wp-content/uploads/2021/08/java-runtime-environment-logo.jpg',
         text: 'Experience developing web and desktop applications.',
     },
     {
