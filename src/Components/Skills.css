@@ -34,13 +34,15 @@
   }
   
   .card-img-top {
-    width: 82%;
-    height: 260px;
-    object-fit:fill;
+    object-fit: contain;
   }
   
+  
   .card-body {
+    display: flex;
+    flex-direction: column;
     padding: 1rem;
+    align-items: center;
   }
   
   .card-title {
