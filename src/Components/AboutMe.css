@@ -9,17 +9,21 @@
   display: flex;
   gap: 20px;
   color: #fff;
-  max-width: 768px;
+  max-width: 100%;
 }
-  img {
-  width:45%;
-  height: 45%;
+img {
+  max-width: 70%;
   object-fit: cover;
-  position: relative;
-  left: 10%;
-  top: 25%;
   border-radius: 5%;
 }
+
+.image-container {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  flex-shrink: 0;
+}
+
 
 .text-content {
   text-align: left;

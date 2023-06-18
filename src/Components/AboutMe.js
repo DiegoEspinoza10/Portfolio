@@ -11,7 +11,9 @@ const AboutMe = () => {
   return (
     <div className="about-me">
       <div className="about-me-content">
+        <div className="image-container">
           <img src={ProfileImage} alt="Profile" />
+        </div>
         <div className="text-content">
           <h2>About Me</h2>
           <p>
@@ -38,5 +40,6 @@ const AboutMe = () => {
 };
 
 export default AboutMe;
+
 
 
