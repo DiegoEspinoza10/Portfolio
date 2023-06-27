@@ -5,6 +5,7 @@ import '../AboutMe.css';
 import HeroSection from '../HeroSection';
 import Skills from '../Skills';
 import AboutMe from '../AboutMe'; 
+import Footer from '../Footer';
 import { useEffect } from 'react';
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <HeroSection />
       <AboutMe />
       <Skills />
+      <Footer />
     </>
   );
 }
