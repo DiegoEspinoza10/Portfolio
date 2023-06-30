@@ -25,6 +25,7 @@ const Footer = () => {
                 <a
                     href="https://github.com/DiegoEspinoza10"
                     target="_blank"
+                    rel="noreferrer"
                     className="item3"
                 >
                     <FontAwesomeIcon icon={faGithub} />
@@ -32,6 +33,7 @@ const Footer = () => {
                 <a
                     href="https://www.linkedin.com/in/diego-espinoza-s%C3%A1nchez-708323272/"
                     target="_blank"
+                    rel="noreferrer"
                     className="item4"
                 >
                     <FontAwesomeIcon icon={faLinkedinIn} />
